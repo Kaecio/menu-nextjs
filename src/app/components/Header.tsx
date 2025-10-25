@@ -18,46 +18,45 @@ export default function Header() {
         sx={{
           justifyContent: "center",
           gap: 2,
-          border: "1px solid green",
         }}
       >
         <IconButton onClick={() => setLang("en")}>
           <Image
             src="/flags/estados-unidos.png"
             alt="English"
-            width={32}
-            height={32}
+            width={42}
+            height={42}
           />
         </IconButton>
         <IconButton onClick={() => setLang("fr")}>
           <Image
             src="/flags/franca.png"
             alt="Français"
-            width={32}
-            height={32}
+            width={42}
+            height={42}
           />
         </IconButton>
         <IconButton onClick={() => setLang("pt")}>
           <Image
             src="/flags/brasil.png"
             alt="Português"
-            width={32}
-            height={32}
+            width={42}
+            height={42}
           />
         </IconButton>
         <IconButton onClick={() => setLang("es")}>
           <Image
             src="/flags/espanha.png"
             alt="Esapañol"
-            width={32}
-            height={32}
+            width={42}
+            height={42}
           />
         </IconButton>
         <IconButton onClick={() => setLang("ch")}>
-          <Image src="/flags/china.png" alt="Chines" width={32} height={32} />
+          <Image src="/flags/china.png" alt="Chines" width={42} height={42} />
         </IconButton>
         <IconButton onClick={() => setLang("jp")}>
-          <Image src="/flags/japao.png" alt="Japanese" width={32} height={32} />
+          <Image src="/flags/japao.png" alt="Japanese" width={42} height={42} />
         </IconButton>
       </Toolbar>
     </AppBar>

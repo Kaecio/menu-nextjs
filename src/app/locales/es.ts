@@ -1,5 +1,5 @@
 export const es = {
-  title: "Menú del Café",
+  title: "Menú",
   dessert: {
     title: "Postre",
     items: ["Helado de vainilla", "Crema de papaya", "Piña"],

@@ -1,48 +1,48 @@
 "use client";
 
-import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
+import { Box, Grid } from "@mui/material";
+import MenuCard from "../components/CardMenu";
 import { useLanguage } from "./LanguageProvider";
 
 export default function MenuList() {
   const { language } = useLanguage();
-  console.log("linguas => ", language);
 
   const items = [
     {
+      key: "dinner",
       name: language.dinner.title,
-      desc: "🍝 Pastas, risottos, meats, fish...",
+      image: "/img/dinner.jpg",
     },
-    { name: language.drink.title, desc: "🥤" },
-    { name: language.dessert.title, desc: "🍨 Ice creams, cakes, fruits..." },
-    { name: language.japonese.title, desc: "🍣 Sushi, sashimi, tempura..." },
+    {
+      key: "drink",
+      name: language.drink.title,
+      image: "/img/drinks.jpg",
+    },
+    {
+      key: "dessert",
+      name: language.dessert.title,
+      image: "/img/dessert.jpg",
+    },
+    {
+      key: "japonese",
+      name: language.japonese.title,
+      image: "/img/japonese.jpg",
+    },
   ];
 
   return (
-    <Box
-      sx={{
-        p: 3,
-        border: "6px solid blue",
-        borderRadius: 3,
-        backgroundColor: "#000000a0",
-      }}
+    <Grid
+      container
+      p={3}
+      spacing={2}
+      justifyContent="center"
+      sx={{ backgroundColor: "#000000" }}
     >
-      <Typography variant="h4" align="center" gutterBottom>
-        {language.title}
-      </Typography>
-      <Grid container spacing={2} justifyContent="center">
-        {items.map((item, i) => (
-          <Grid key={i}>
-            <Card sx={{ borderRadius: 3 }}>
-              <CardContent>
-                <Typography variant="h6" align="center">
-                  {item.name}
-                </Typography>
-                <Typography align="center">{item.desc}</Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-    </Box>
+      {items.map((item, index) => (
+        <Box key={index}>
+          <MenuCard title={item.name} image={item.image} />
+        </Box>
+      ))}
+    </Grid>
   );
 }

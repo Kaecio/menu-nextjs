@@ -1,4 +1,4 @@
-import { Container, CssBaseline } from "@mui/material";
+import { Box, CssBaseline } from "@mui/material";
 import Header from "./components/Header";
 import { LanguageProvider } from "./components/LanguageProvider";
 import "./global.css";
@@ -14,9 +14,7 @@ export default function RootLayout({
         <CssBaseline />
         <LanguageProvider>
           <Header />
-          <Container  maxWidth="lg">
-            {children}
-          </Container>
+          <Box>{children}</Box>
         </LanguageProvider>
       </body>
     </html>

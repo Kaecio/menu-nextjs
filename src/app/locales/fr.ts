@@ -1,12 +1,5 @@
-// export const fr = {
-//   title: "Café Photo Menu",
-//   breakfast: "Petit-déjeuner",
-//   lunch: "Déjeuner",
-//   dinner: "Dîner",
-//   drink: "Boisson",
-// };
 export const fr = {
-  title: "Menu du Café Photo",
+  title: "Menu",
   dessert: {
     title: "Dessert",
     items: ["Glace à la vanille", "Crème de papaye", "Ananas"],

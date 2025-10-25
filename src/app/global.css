@@ -5,8 +5,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  min-height: 100%;
-  background-color: #00000080;
+  /* min-height: 100%; */
+  background-color: #000000;
   font-family: "Roboto", sans-serif;
 }
 
@@ -17,12 +17,12 @@ a {
 }
 
 /* Centraliza o conteúdo do Container */
-main {
+/* main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid #0c64bd;
-}
+  border: 10px solid #0c64bd;
+} */
 
 /* Exemplo: estilizar header */
 header {
@@ -33,6 +33,6 @@ header {
 /* Responsividade geral */
 @media (max-width: 600px) {
   body {
-    background-color: #0c64bd; /* muda um pouco a cor no mobile */
+    background-color: #2fbd0c; /* muda um pouco a cor no mobile */
   }
 }
