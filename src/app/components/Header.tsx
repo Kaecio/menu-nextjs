@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <AppBar
-      position="static"
+      position="fixed"
       color="transparent"
       elevation={0}
       sx={{ backgroundColor: "#000000f8" }}
