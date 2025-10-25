@@ -12,10 +12,29 @@ type Lang = "en" | "fr" | "pt" | "es" | "jp" | "ch";
 
 const translations = { en, fr, pt, es, jp, ch };
 
+type DessertItem = { name: string; price: number };
+type DinnerItem = { name: string; price: number };
+type DrinkItem = { name: string; price: number };
+type JaponeseItem = { name: string; price: number };
+
+type LanguageType = {
+  title: string;
+  dessert: { title: string; items: DessertItem[] };
+  dinner: {
+    title: string;
+    pasta: { title: string; items: DinnerItem[] };
+    soup: { title: string; items: DinnerItem[] };
+    risotto: { title: string; items: DinnerItem[] };
+    sandwiches: { title: string; items: DinnerItem[] };
+  };
+  drink: { title: string; items: DrinkItem[] };
+  japonese: { title: string; items: JaponeseItem[] };
+};
+
 type LanguageContextType = {
   lang: Lang;
   setLang: (lang: Lang) => void;
-  language: typeof en;
+  language: LanguageType;
 };
 
 const LanguageContext = createContext<LanguageContextType>({

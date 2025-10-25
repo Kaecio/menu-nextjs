@@ -2,37 +2,58 @@ export const es = {
   title: "Menú",
   dessert: {
     title: "Postre",
-    items: ["Helado de vainilla", "Crema de papaya", "Piña"],
+    items: [
+      { name: "Helado de vainilla", price: 20.0 },
+      { name: "Crema de papaya", price: 22.0 },
+      { name: "Piña", price: 18.0 },
+    ],
   },
   dinner: {
     title: "Cena",
     pasta: {
       title: "Pastas",
       items: [
-        "Penne cuatro quesos",
-        "Penne pomodoro",
-        "Fettuccine cuatro quesos",
-        "Fettuccine pomodoro",
+        { name: "Penne cuatro quesos", price: 45.0 },
+        { name: "Penne pomodoro", price: 40.0 },
+        { name: "Fettuccine cuatro quesos", price: 48.0 },
+        { name: "Fettuccine pomodoro", price: 42.0 },
       ],
     },
     soup: {
       title: "Sopa",
-      items: ["Minestrone"],
+      items: [{ name: "Minestrone", price: 32.0 }],
     },
     risotto: {
       title: "Risotto",
-      items: ["Funghi", "Limón", "Camarón"],
+      items: [
+        { name: "Funghi", price: 55.0 },
+        { name: "Limón", price: 58.0 },
+        { name: "Camarón", price: 65.0 },
+      ],
     },
     sandwiches: {
       title: "Sándwiches",
-      items: ["Filet mignon", "Bauru", "Hamburguesa con queso"],
+      items: [
+        { name: "Filet mignon", price: 48.0 },
+        { name: "Bauru", price: 38.0 },
+        { name: "Hamburguesa con queso", price: 35.0 },
+      ],
     },
   },
   drink: {
     title: "Bebidas",
+    items: [
+      { name: "Refresco", price: 8.0 },
+      { name: "Jugo natural", price: 12.0 },
+      { name: "Cerveza", price: 15.0 },
+    ],
   },
   japonese: {
     title: "Japonés",
-    items: ["Sushi", "Sashimi", "Tempura"],
+    items: [
+      { name: "Sushi", price: 40.0 },
+      { name: "Sashimi", price: 50.0 },
+      { name: "Tempura", price: 35.0 },
+    ],
   },
 };
