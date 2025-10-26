@@ -2,11 +2,21 @@ export const en = {
   title: "Menu",
   dessert: {
     title: "Dessert",
-    items: [
-      { name: "Vanilla Ice Cream", price: 20.0 },
-      { name: "Papaya Cream", price: 22.0 },
-      { name: "Pineapple", price: 18.0 },
-    ],
+    iceCreams: {
+      title: "Ice Creams",
+      items: [
+        { name: "Vanilla Ice Cream", price: 20.0 },
+        { name: "Papaya Cream", price: 22.0 },
+        { name: "Pineapple", price: 18.0 },
+      ],
+    },
+    cakes: {
+      title: "Cakes",
+      items: [
+        { name: "Chocolate Cake", price: 28.0 },
+        { name: "Cheesecake", price: 30.0 },
+      ],
+    },
   },
   dinner: {
     title: "Dinner",
@@ -42,18 +52,53 @@ export const en = {
   },
   drink: {
     title: "Drinks",
-    items: [
-      { name: "Soda", price: 8.0 },
-      { name: "Natural Juice", price: 12.0 },
-      { name: "Beer", price: 15.0 },
-    ],
+    softDrinks: {
+      title: "Soft Drinks",
+      items: [
+        { name: "Soda", price: 8.0 },
+        { name: "Water", price: 6.0 },
+      ],
+    },
+    juices: {
+      title: "Natural Juices",
+      items: [
+        { name: "Orange Juice", price: 12.0 },
+        { name: "Pineapple Juice", price: 12.0 },
+        { name: "Strawberry Juice", price: 14.0 },
+      ],
+    },
+    alcoholic: {
+      title: "Alcoholic Drinks",
+      items: [
+        { name: "Beer", price: 15.0 },
+        { name: "Caipirinha", price: 22.0 },
+        { name: "Wine (glass)", price: 25.0 },
+      ],
+    },
   },
   japonese: {
     title: "Japanese",
-    items: [
-      { name: "Sushi", price: 40.0 },
-      { name: "Sashimi", price: 50.0 },
-      { name: "Tempura", price: 35.0 },
-    ],
+    sushi: {
+      title: "Sushi",
+      items: [
+        { name: "Salmon Sushi (2 pcs)", price: 18.0 },
+        { name: "Tuna Sushi (2 pcs)", price: 20.0 },
+      ],
+    },
+    sashimi: {
+      title: "Sashimi",
+      items: [
+        { name: "Salmon Sashimi (6 pcs)", price: 45.0 },
+        { name: "Tuna Sashimi (6 pcs)", price: 50.0 },
+      ],
+    },
+    hotDishes: {
+      title: "Hot Dishes",
+      items: [
+        { name: "Tempura", price: 35.0 },
+        { name: "Yakisoba", price: 42.0 },
+        { name: "Gyoza", price: 30.0 },
+      ],
+    },
   },
 };

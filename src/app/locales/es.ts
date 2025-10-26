@@ -1,12 +1,22 @@
 export const es = {
   title: "Menú",
   dessert: {
-    title: "Postre",
-    items: [
-      { name: "Helado de vainilla", price: 20.0 },
-      { name: "Crema de papaya", price: 22.0 },
-      { name: "Piña", price: 18.0 },
-    ],
+    title: "Postres",
+    iceCreams: {
+      title: "Helados",
+      items: [
+        { name: "Helado de vainilla", price: 20.0 },
+        { name: "Crema de papaya", price: 22.0 },
+        { name: "Piña", price: 18.0 },
+      ],
+    },
+    cakes: {
+      title: "Pasteles",
+      items: [
+        { name: "Pastel de chocolate", price: 28.0 },
+        { name: "Pastel de queso (Cheesecake)", price: 30.0 },
+      ],
+    },
   },
   dinner: {
     title: "Cena",
@@ -20,11 +30,11 @@ export const es = {
       ],
     },
     soup: {
-      title: "Sopa",
+      title: "Sopas",
       items: [{ name: "Minestrone", price: 32.0 }],
     },
     risotto: {
-      title: "Risotto",
+      title: "Risottos",
       items: [
         { name: "Funghi", price: 55.0 },
         { name: "Limón", price: 58.0 },
@@ -42,18 +52,53 @@ export const es = {
   },
   drink: {
     title: "Bebidas",
-    items: [
-      { name: "Refresco", price: 8.0 },
-      { name: "Jugo natural", price: 12.0 },
-      { name: "Cerveza", price: 15.0 },
-    ],
+    softDrinks: {
+      title: "Refrescos",
+      items: [
+        { name: "Refresco", price: 8.0 },
+        { name: "Agua mineral", price: 6.0 },
+      ],
+    },
+    juices: {
+      title: "Jugos naturales",
+      items: [
+        { name: "Jugo de naranja", price: 12.0 },
+        { name: "Jugo de piña", price: 12.0 },
+        { name: "Jugo de fresa", price: 14.0 },
+      ],
+    },
+    alcoholic: {
+      title: "Bebidas alcohólicas",
+      items: [
+        { name: "Cerveza", price: 15.0 },
+        { name: "Caipiriña", price: 22.0 },
+        { name: "Vino (copa)", price: 25.0 },
+      ],
+    },
   },
   japonese: {
     title: "Japonés",
-    items: [
-      { name: "Sushi", price: 40.0 },
-      { name: "Sashimi", price: 50.0 },
-      { name: "Tempura", price: 35.0 },
-    ],
+    sushi: {
+      title: "Sushi",
+      items: [
+        { name: "Sushi de salmón (2 piezas)", price: 18.0 },
+        { name: "Sushi de atún (2 piezas)", price: 20.0 },
+      ],
+    },
+    sashimi: {
+      title: "Sashimi",
+      items: [
+        { name: "Sashimi de salmón (6 piezas)", price: 45.0 },
+        { name: "Sashimi de atún (6 piezas)", price: 50.0 },
+      ],
+    },
+    hotDishes: {
+      title: "Platos calientes",
+      items: [
+        { name: "Tempura", price: 35.0 },
+        { name: "Yakisoba", price: 42.0 },
+        { name: "Gyoza", price: 30.0 },
+      ],
+    },
   },
 };

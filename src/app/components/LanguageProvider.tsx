@@ -19,7 +19,11 @@ type JaponeseItem = { name: string; price: number };
 
 type LanguageType = {
   title: string;
-  dessert: { title: string; items: DessertItem[] };
+  dessert: {
+    title: string;
+    iceCreams: { title: string; items: DessertItem[] };
+    cakes: { title: string; items: DessertItem[] };
+  };
   dinner: {
     title: string;
     pasta: { title: string; items: DinnerItem[] };
@@ -27,8 +31,18 @@ type LanguageType = {
     risotto: { title: string; items: DinnerItem[] };
     sandwiches: { title: string; items: DinnerItem[] };
   };
-  drink: { title: string; items: DrinkItem[] };
-  japonese: { title: string; items: JaponeseItem[] };
+  drink: {
+    title: string;
+    softDrinks: { title: string; items: DrinkItem[] };
+    juices: { title: string; items: DrinkItem[] };
+    alcoholic: { title: string; items: DrinkItem[] };
+  };
+  japonese: {
+    title: string;
+    sushi: { title: string; items: JaponeseItem[] };
+    sashimi: { title: string; items: JaponeseItem[] };
+    hotDishes: { title: string; items: JaponeseItem[] };
+  };
 };
 
 type LanguageContextType = {

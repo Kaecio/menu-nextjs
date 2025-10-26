@@ -1,7 +1,8 @@
 "use client";
 
 import { Box, Grid } from "@mui/material";
-import MenuCard from "../components/CardMenu";
+import Link from "next/link";
+import MenuCard from "./CardMenu";
 import { useLanguage } from "./LanguageProvider";
 
 export default function MenuList() {
@@ -33,14 +34,18 @@ export default function MenuList() {
   return (
     <Grid
       container
-      p={3}
+      pt={14.5}
       spacing={2}
       justifyContent="center"
-      sx={{ backgroundColor: "#000000" }}
+      sx={{
+        backgroundColor: "#000000ff",
+      }}
     >
       {items.map((item, index) => (
         <Box key={index}>
-          <MenuCard title={item.name} image={item.image} />
+          <Link href={`/menu/${item.key}`} style={{ textDecoration: "none" }}>
+            <MenuCard title={item.name} image={item.image} />
+          </Link>
         </Box>
       ))}
     </Grid>

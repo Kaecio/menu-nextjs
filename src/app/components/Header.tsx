@@ -12,7 +12,13 @@ export default function Header() {
       position="fixed"
       color="transparent"
       elevation={0}
-      sx={{ backgroundColor: "#000000f8" }}
+      sx={{
+        backgroundColor: "#000000f8",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        height: 100,
+      }}
     >
       <Toolbar
         sx={{
