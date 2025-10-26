@@ -2,7 +2,7 @@ import { Box, CssBaseline } from "@mui/material";
 import { Metadata } from "next";
 import Header from "./components/Header";
 import { LanguageProvider } from "./components/LanguageProvider";
-import "./globals.css";
+import "./global.css";
 
 export const metadata: Metadata = {
   title: "Cardápio Multilíngue",
