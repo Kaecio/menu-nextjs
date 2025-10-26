@@ -23,7 +23,7 @@ export default function Header() {
       <Toolbar
         sx={{
           justifyContent: "center",
-          gap: 2,
+          gap: 0.5,
         }}
       >
         <IconButton onClick={() => setLang("en")}>
