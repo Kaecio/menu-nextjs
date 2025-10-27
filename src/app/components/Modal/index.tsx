@@ -1,4 +1,4 @@
-import Box from "@mui/material/Box";
+import { Box, Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import Modal from "@mui/material/Modal";
 import Image from "next/image";
@@ -20,6 +20,10 @@ export default function ModalComponent({
             left: "50%",
             transform: "translate(-50%, -50%)",
             outline: "none",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            bgcolor: "transparent",
           }}
         >
           <IconButton
@@ -35,10 +39,13 @@ export default function ModalComponent({
           <Image
             src="/img/dinner.jpg"
             alt="teste"
-            width={800}
-            height={600}
-            style={{ maxWidth: "100%", height: "auto" }}
+            width={1200}
+            height={800}
+            style={{ maxWidth: "100vw", height: "auto" }}
           />
+          <Typography variant="body1" color="white" mt={2}>
+            Ingredientes: Arroz, bife, salada, purê.
+          </Typography>
         </Box>
       </Modal>
     </Box>
