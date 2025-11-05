@@ -9,15 +9,20 @@ export default function MenuList() {
   const { language } = useLanguage();
 
   const items = [
-    {
-      key: "dinner",
-      name: language.dinner.title,
-      image: "/img/dinner.jpg",
-    },
+    // {
+    //   key: "bottle of distilled spirits",
+    //   name: language.drink.title,
+    //   image: "/img/whiskey.jpg",
+    // },
     {
       key: "drink",
       name: language.drink.title,
       image: "/img/drinks.jpg",
+    },
+    {
+      key: "dinner",
+      name: language.dinner.title,
+      image: "/img/dinner.jpg",
     },
     {
       key: "dessert",
