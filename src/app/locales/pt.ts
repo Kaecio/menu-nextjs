@@ -17,7 +17,16 @@ export const pt = {
       items: [
         { name: "Cesar Salad com Frango", price: prices.cesarSaladComFrango },
         { name: "Caprese Salad", price: prices.capreseSalad },
-        { name: "Minestrone", price: prices.minestrone },
+      ],
+    },
+    sopas: {
+      title: "Sopas",
+      items: [
+        {
+          name: "Minestrone",
+          price: prices.minestrone,
+          items: ["carne e legumes"],
+        },
         { name: "Creme de Palmito", price: prices.cremeDePalmito },
       ],
     },
@@ -38,7 +47,11 @@ export const pt = {
     risotto: {
       title: "Risotos",
       items: [
-        { name: "Risoto de Funghi", price: prices.risotoDeFunghi },
+        {
+          name: "Risoto de Funghi",
+          price: prices.risotoDeFunghi,
+          items: ["molho funghi, ervilha, cebola, salsinha e parmesão"],
+        },
         {
           name: "Risoto de Limão Siciliano",
           price: prices.risotoDeLimaoSiciliano,
@@ -52,8 +65,18 @@ export const pt = {
         { name: "Filé Mignon Grelhado", price: prices.filetMignonGrelhado },
         { name: "Filé Chateaubriand", price: prices.filetChateaubriand },
         { name: "Medalhão de Filé", price: prices.medalhaoDeFilet },
-        { name: "Strogonoff", price: prices.strogonoff },
-        { name: "Picadinho", price: prices.picadinho },
+        {
+          name: "Strogonoff",
+          price: prices.strogonoff,
+          items: [" filet mignon, arroz branco e batata frita"],
+        },
+        {
+          name: "Picadinho",
+          price: prices.picadinho,
+          items: [
+            " filet mignon, molho  madeira, arroz branco, banana à milanesa, ovo e milho",
+          ],
+        },
         {
           name: "Filé de Frango Grelhado",
           price: prices.filetDeFrangoGrelhado,
@@ -66,10 +89,12 @@ export const pt = {
         {
           name: "Sanduiche de Filét Mignon",
           price: prices.sanduicheFiletMignon,
+          items: ["queijo, alface, tomate e maionese"],
         },
         {
           name: "Bauru",
           price: prices.bauru,
+          items: ["presunto, queijo, tomate"],
         },
         { name: "X-Salada", price: prices.xsalada },
       ],
@@ -158,8 +183,8 @@ export const pt = {
 
   japonese: {
     title: "Comida Japonesa",
-    carpaccios: {
-      title: "Carpaccios e Tartares",
+    sushis: {
+      title: "Sushis e Sashimis",
       items: [
         { name: "Carpaccio de Salmão", price: prices.carpaccioSalmao },
         { name: "Carpaccio de Atum", price: prices.carpaccioAtum },
@@ -170,16 +195,12 @@ export const pt = {
         { name: "Tartare de Salmão", price: prices.tartareSalmao },
         { name: "Tartare de Atum", price: prices.tartareAtum },
         { name: "Tartare do Chef", price: prices.tartareDoChef },
-      ],
-    },
-    sushi: {
-      title: "Sushis e Combinados",
-      items: [
         { name: "Batera de Salmão (8 unid.)", price: prices.bateraSalmao },
         { name: "Batera de Atum (8 unid.)", price: prices.bateraAtum },
         {
           name: "Sashimi Misto (12 cortes)",
           price: prices.sashimiMisto12Cortes,
+          items: ["atum, salmão e peixe branco"],
         },
         {
           name: "Sashimi de Atum (4 cortes)",
@@ -204,52 +225,67 @@ export const pt = {
           price: prices.makimonoUramakiSalmao,
         },
         { name: "Hot Roll", price: prices.makimonoHotRoll },
-        { name: "Combinado", price: prices.combinado },
-        { name: "Combinado do Chef", price: prices.combinadoDoChef },
-        { name: "Sushi 1", price: prices.sushi1 },
-        { name: "Sushi do Chef", price: prices.sushiDoChef },
+        {
+          name: "Combinado",
+          price: prices.combinado,
+          items: ["8 sashimis, 5 sushis e 3 uramakis"],
+        },
+        {
+          name: "Combinado do Chef",
+          price: prices.combinadoDoChef,
+          items: ["10 sashimis e 6 sushis"],
+        },
+        {
+          name: "Sushi 1",
+          price: prices.sushi1,
+          items: ["6 sushis e 3 uramakis"],
+        },
+        {
+          name: "Sushi do Chef",
+          price: prices.sushiDoChef,
+          items: ["8 sushis"],
+        },
       ],
     },
-  },
-  cigars: {
-    title: "Charutaria",
-    items: [
-      { name: "Cohiba Robusto", price: prices.cohibaRobusto },
-      { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
-      { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
-      { name: "Monte Cristo I", price: prices.monteCristoI },
-      { name: "Monte Cristo II", price: prices.monteCristoII },
-      { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
-      { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
-      { name: "Partagas DE", price: prices.partagasDe },
-      { name: "Charuto Danilo Gentil", price: prices.charutoDaniloGentil },
-      { name: "Cigarros", price: prices.cigarros },
-    ],
-  },
-  drink: {
-    title: "Boissons",
-    softDrinks: {
-      title: "Boissons gazeuses",
+    cigars: {
+      title: "Charutos",
       items: [
-        { name: "Soda", price: 8.0 },
-        { name: "Eau", price: 6.0 },
+        { name: "Cohiba Robusto", price: prices.cohibaRobusto },
+        { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
+        { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
+        { name: "Monte Cristo I", price: prices.monteCristoI },
+        { name: "Monte Cristo II", price: prices.monteCristoII },
+        { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
+        { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
+        { name: "Partagas DE", price: prices.partagasDe },
+        { name: "Charuto Danilo Gentil", price: prices.charutoDaniloGentil },
+        { name: "Cigarros", price: prices.cigarros },
       ],
     },
-    juices: {
-      title: "Jus naturels",
-      items: [
-        { name: "Jus d'orange", price: 12.0 },
-        { name: "Jus d'ananas", price: 12.0 },
-        { name: "Jus de fraise", price: 14.0 },
-      ],
-    },
-    alcoholic: {
-      title: "Boissons alcoolisées",
-      items: [
-        { name: "Bière", price: 15.0 },
-        { name: "Caïpirinha", price: 22.0 },
-        { name: "Vin (verre)", price: 25.0 },
-      ],
+    drink: {
+      title: "Drinks",
+      softDrinks: {
+        title: "Soft Drinks",
+        items: [
+          { name: "Soda", price: 8.0 },
+          { name: "Água", price: 6.0 },
+        ],
+      },
+      juices: {
+        title: "Sucos Naturais",
+        items: [
+          { name: "Suco de Laranja", price: 12.0 },
+          { name: "Suco de Abacaxi", price: 12.0 },
+        ],
+      },
+      alcoholic: {
+        title: "Bebidas Alcoólicas",
+        items: [
+          { name: "Cerveja", price: 15.0 },
+          { name: "Caipirinha", price: 22.0 },
+          { name: "Vinho (taça)", price: 25.0 },
+        ],
+      },
     },
   },
 };
