@@ -1,8 +1,6 @@
 "use client";
 import ModalComponent from "@/app/components/Modal";
 import { Box, Typography } from "@mui/material";
-import Image from "next/image";
-import Link from "next/link";
 import { use, useState } from "react";
 import { useLanguage } from "../../components/LanguageProvider";
 
@@ -62,13 +60,14 @@ export default function MenuDetails({
   };
 
   return (
-    <Box sx={{ backgroundColor: "#000", minHeight: "100vh", p: 4 }}>
-      <Link href="/menu" style={{ textDecoration: "none" }}>
-        <Typography sx={{ color: "#ffffffff", cursor: "pointer" }}>
-          back
-        </Typography>
-      </Link>
-
+    <Box
+      sx={{
+        backgroundColor: "#000",
+        minHeight: "100vh",
+        pt: 5,
+        px: 4,
+      }}
+    >
       <Typography variant="h4" color="white" mt={8}>
         {section.title}
       </Typography>
@@ -124,14 +123,14 @@ export default function MenuDetails({
                         <Typography key={i} color="white" mb={1}>
                           {item.name} — R$ {item.price.toFixed(2)}
                         </Typography>
-                        <Image
+                        {/* <Image
                           src="/img/dinner.jpg"
                           alt={item.name}
                           width={40}
                           height={40}
                           style={{ borderRadius: "8px" }}
                           onClick={() => handleOpenModal()}
-                        />
+                        /> */}
                       </Box>
                     ))}
                   </>

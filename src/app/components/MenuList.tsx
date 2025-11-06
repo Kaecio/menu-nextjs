@@ -9,11 +9,11 @@ export default function MenuList() {
   const { language } = useLanguage();
 
   const items = [
-    {
-      key: "drink",
-      name: language.drink.title,
-      image: "/img/drinks.jpg",
-    },
+    // {
+    //   key: "drink",
+    //   name: language.drink.title,
+    //   image: "/img/drinks.jpg",
+    // },
     {
       key: "dinner",
       name: language.dinner.title,
@@ -34,11 +34,11 @@ export default function MenuList() {
       name: language.japonese.title,
       image: "/img/japonese.jpg",
     },
-    {
-      key: "cigars",
-      name: language.cigars.title,
-      image: "/img/cigars.jpg",
-    },
+    // {
+    //   key: "cigars",
+    //   name: language.cigars.title,
+    //   image: "/img/cigars.jpg",
+    // },
   ];
 
   return (

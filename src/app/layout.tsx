@@ -1,4 +1,4 @@
-import { Box, CssBaseline } from "@mui/material";
+import { Box } from "@mui/material";
 import { Metadata } from "next";
 import Header from "./components/Header";
 import { LanguageProvider } from "./components/LanguageProvider";
@@ -20,7 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <CssBaseline />
         <LanguageProvider>
           <Header />
           <Box>{children}</Box>
