@@ -65,7 +65,7 @@ const LanguageContext = createContext<LanguageContextType>({
   // lang: "en",
   lang: "pt",
   setLang: () => {},
-  language: translations.en as LanguageType,
+  language: translations.en as unknown as LanguageType,
 });
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
@@ -74,7 +74,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const value = {
     lang,
     setLang,
-    language: translations[lang] as LanguageType,
+    language: translations[lang] as unknown as LanguageType,
   };
 
   return (
