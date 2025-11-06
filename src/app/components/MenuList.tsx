@@ -9,11 +9,6 @@ export default function MenuList() {
   const { language } = useLanguage();
 
   const items = [
-    // {
-    //   key: "bottle of distilled spirits",
-    //   name: language.drink.title,
-    //   image: "/img/whiskey.jpg",
-    // },
     {
       key: "drink",
       name: language.drink.title,
@@ -25,6 +20,11 @@ export default function MenuList() {
       image: "/img/dinner.jpg",
     },
     {
+      key: "appetizers",
+      name: language.appetizers.title,
+      image: "/img/appetizers.jpg",
+    },
+    {
       key: "dessert",
       name: language.dessert.title,
       image: "/img/dessert.jpg",
@@ -33,6 +33,11 @@ export default function MenuList() {
       key: "japonese",
       name: language.japonese.title,
       image: "/img/japonese.jpg",
+    },
+    {
+      key: "cigars",
+      name: language.cigars.title,
+      image: "/img/cigars.jpg",
     },
   ];
 

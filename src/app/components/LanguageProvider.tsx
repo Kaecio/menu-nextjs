@@ -16,6 +16,8 @@ type DessertItem = { name: string; price: number };
 type DinnerItem = { name: string; price: number };
 type DrinkItem = { name: string; price: number };
 type JaponeseItem = { name: string; price: number };
+type Appetizers = { name: string; price: number };
+type Cigars = { name: string; price: number };
 
 type LanguageType = {
   title: string;
@@ -31,6 +33,10 @@ type LanguageType = {
     risotto: { title: string; items: DinnerItem[] };
     sandwiches: { title: string; items: DinnerItem[] };
   };
+  appetizers: {
+    title: string;
+    appetizers: { title: string; items: Appetizers[] };
+  };
   drink: {
     title: string;
     softDrinks: { title: string; items: DrinkItem[] };
@@ -43,6 +49,10 @@ type LanguageType = {
     sashimi: { title: string; items: JaponeseItem[] };
     hotDishes: { title: string; items: JaponeseItem[] };
   };
+  cigars: {
+    title: string;
+    cigars: { title: string; items: Cigars[] };
+  };
 };
 
 type LanguageContextType = {
@@ -52,18 +62,19 @@ type LanguageContextType = {
 };
 
 const LanguageContext = createContext<LanguageContextType>({
-  lang: "en",
+  // lang: "en",
+  lang: "pt",
   setLang: () => {},
-  language: en,
+  language: translations.en as LanguageType,
 });
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>("en");
+  const [lang, setLang] = useState<Lang>("pt");
 
   const value = {
     lang,
     setLang,
-    language: translations[lang],
+    language: translations[lang] as LanguageType,
   };
 
   return (

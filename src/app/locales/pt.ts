@@ -75,9 +75,9 @@ export const pt = {
       ],
     },
   },
-  porcoes: {
+  appetizers: {
     title: "Porções",
-    aperitivos: {
+    appetizers: {
       title: "Aperitivos",
       items: [
         { name: "Filé Mignon Aperitivo", price: prices.filetMignonAperitivo },
@@ -211,7 +211,7 @@ export const pt = {
       ],
     },
   },
-  charutaria: {
+  cigars: {
     title: "Charutaria",
     items: [
       { name: "Cohiba Robusto", price: prices.cohibaRobusto },

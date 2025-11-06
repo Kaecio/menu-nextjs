@@ -2,6 +2,7 @@
 import ModalComponent from "@/app/components/Modal";
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
 import { use, useState } from "react";
 import { useLanguage } from "../../components/LanguageProvider";
 
@@ -46,6 +47,12 @@ export default function MenuDetails({
     case "japonese":
       section = language.japonese as MenuSection;
       break;
+    case "appetizers":
+      section = language.appetizers as MenuSection;
+      break;
+    case "cigars":
+      section = language.cigars as MenuSection;
+      break;
     default:
       return <Typography color="white">Categoria não encontrada.</Typography>;
   }
@@ -56,7 +63,13 @@ export default function MenuDetails({
 
   return (
     <Box sx={{ backgroundColor: "#000", minHeight: "100vh", p: 4 }}>
-      <Typography variant="h4" color="white" mb={3}>
+      <Link href="/menu" style={{ textDecoration: "none" }}>
+        <Typography sx={{ color: "#ffffffff", cursor: "pointer" }}>
+          back
+        </Typography>
+      </Link>
+
+      <Typography variant="h4" color="white" mt={8}>
         {section.title}
       </Typography>
 
