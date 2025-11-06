@@ -305,62 +305,61 @@ export const ch = {
         { name: "主厨寿司 (Sushi do Chef)", price: prices.sushiDoChef },
       ],
     },
+  },
+  cigars: {
+    title: "雪茄 (Charutos)",
+    items: [
+      { name: "高希霸 罗布图 (Cohiba Robusto)", price: prices.cohibaRobusto },
+      { name: "高希霸 世纪 I (Cohiba Siglo I)", price: prices.cohibaSigloI },
+      {
+        name: "高希霸 世纪 II (Cohiba Siglo II)",
+        price: prices.cohibaSigloII,
+      },
+      { name: "蒙特克里斯托 I (Monte Cristo I)", price: prices.monteCristoI },
+      {
+        name: "蒙特克里斯托 II (Monte Cristo II)",
+        price: prices.monteCristoII,
+      },
+      {
+        name: "罗密欧与朱丽叶 I 宽版 (Romeo y Julieta I Wide)",
+        price: prices.romeoYJulietaIWide,
+      },
+      {
+        name: "罗密欧与朱丽叶 II ES (Romeo y Julieta II ES)",
+        price: prices.romeoYJulietaIIEs,
+      },
+      { name: "帕塔加斯 DE (Partagas DE)", price: prices.partagasDe },
+      {
+        name: "丹尼洛·金提尔雪茄 (Charuto Danilo Gentil)",
+        price: prices.charutoDaniloGentil,
+      },
+      { name: "香烟 (Cigarros)", price: prices.cigarros },
+    ],
+  },
 
-    cigars: {
-      title: "雪茄 (Charutos)",
+  drink: {
+    title: "饮品 (Drinks)",
+    softDrinks: {
+      title: "软饮料 (Soft Drinks)",
       items: [
-        { name: "高希霸 罗布图 (Cohiba Robusto)", price: prices.cohibaRobusto },
-        { name: "高希霸 世纪 I (Cohiba Siglo I)", price: prices.cohibaSigloI },
-        {
-          name: "高希霸 世纪 II (Cohiba Siglo II)",
-          price: prices.cohibaSigloII,
-        },
-        { name: "蒙特克里斯托 I (Monte Cristo I)", price: prices.monteCristoI },
-        {
-          name: "蒙特克里斯托 II (Monte Cristo II)",
-          price: prices.monteCristoII,
-        },
-        {
-          name: "罗密欧与朱丽叶 I 宽版 (Romeo y Julieta I Wide)",
-          price: prices.romeoYJulietaIWide,
-        },
-        {
-          name: "罗密欧与朱丽叶 II ES (Romeo y Julieta II ES)",
-          price: prices.romeoYJulietaIIEs,
-        },
-        { name: "帕塔加斯 DE (Partagas DE)", price: prices.partagasDe },
-        {
-          name: "丹尼洛·金提尔雪茄 (Charuto Danilo Gentil)",
-          price: prices.charutoDaniloGentil,
-        },
-        { name: "香烟 (Cigarros)", price: prices.cigarros },
+        { name: "苏打水 (Soda)", price: 8.0 },
+        { name: "矿泉水 (Água)", price: 6.0 },
       ],
     },
-
-    drink: {
-      title: "饮品 (Drinks)",
-      softDrinks: {
-        title: "软饮料 (Soft Drinks)",
-        items: [
-          { name: "苏打水 (Soda)", price: 8.0 },
-          { name: "矿泉水 (Água)", price: 6.0 },
-        ],
-      },
-      juices: {
-        title: "天然果汁 (Sucos Naturais)",
-        items: [
-          { name: "橙汁 (Suco de Laranja)", price: 12.0 },
-          { name: "菠萝汁 (Suco de Abacaxi)", price: 12.0 },
-        ],
-      },
-      alcoholic: {
-        title: "含酒精饮品 (Bebidas Alcoólicas)",
-        items: [
-          { name: "啤酒 (Cerveja)", price: 15.0 },
-          { name: "卡皮林纳 (Caipirinha)", price: 22.0 },
-          { name: "红酒（杯）(Vinho (taça))", price: 25.0 },
-        ],
-      },
+    juices: {
+      title: "天然果汁 (Sucos Naturais)",
+      items: [
+        { name: "橙汁 (Suco de Laranja)", price: 12.0 },
+        { name: "菠萝汁 (Suco de Abacaxi)", price: 12.0 },
+      ],
+    },
+    alcoholic: {
+      title: "含酒精饮品 (Bebidas Alcoólicas)",
+      items: [
+        { name: "啤酒 (Cerveja)", price: 15.0 },
+        { name: "卡皮林纳 (Caipirinha)", price: 22.0 },
+        { name: "红酒（杯）(Vinho (taça))", price: 25.0 },
+      ],
     },
   },
 };

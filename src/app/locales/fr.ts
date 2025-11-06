@@ -267,45 +267,45 @@ export const fr = {
         },
       ],
     },
-    cigars: {
-      title: "Cigares",
+  },
+  cigars: {
+    title: "Cigares",
+    items: [
+      { name: "Cohiba Robusto", price: prices.cohibaRobusto },
+      { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
+      { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
+      { name: "Montecristo I", price: prices.monteCristoI },
+      { name: "Montecristo II", price: prices.monteCristoII },
+      { name: "Roméo et Juliette I Wide", price: prices.romeoYJulietaIWide },
+      { name: "Roméo et Juliette II ES", price: prices.romeoYJulietaIIEs },
+      { name: "Partagas DE", price: prices.partagasDe },
+      { name: "Cigare Danilo Gentil", price: prices.charutoDaniloGentil },
+      { name: "Cigarettes", price: prices.cigarros },
+    ],
+  },
+  drink: {
+    title: "Boissons",
+    softDrinks: {
+      title: "Boissons Gazeuses",
       items: [
-        { name: "Cohiba Robusto", price: prices.cohibaRobusto },
-        { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
-        { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
-        { name: "Montecristo I", price: prices.monteCristoI },
-        { name: "Montecristo II", price: prices.monteCristoII },
-        { name: "Roméo et Juliette I Wide", price: prices.romeoYJulietaIWide },
-        { name: "Roméo et Juliette II ES", price: prices.romeoYJulietaIIEs },
-        { name: "Partagas DE", price: prices.partagasDe },
-        { name: "Cigare Danilo Gentil", price: prices.charutoDaniloGentil },
-        { name: "Cigarettes", price: prices.cigarros },
+        { name: "Soda", price: 8.0 },
+        { name: "Eau", price: 6.0 },
       ],
     },
-    drink: {
-      title: "Boissons",
-      softDrinks: {
-        title: "Boissons Gazeuses",
-        items: [
-          { name: "Soda", price: 8.0 },
-          { name: "Eau", price: 6.0 },
-        ],
-      },
-      juices: {
-        title: "Jus Naturels",
-        items: [
-          { name: "Jus d’Orange", price: 12.0 },
-          { name: "Jus d’Ananas", price: 12.0 },
-        ],
-      },
-      alcoholic: {
-        title: "Boissons Alcoolisées",
-        items: [
-          { name: "Bière", price: 15.0 },
-          { name: "Caipirinha", price: 22.0 },
-          { name: "Vin (verre)", price: 25.0 },
-        ],
-      },
+    juices: {
+      title: "Jus Naturels",
+      items: [
+        { name: "Jus d’Orange", price: 12.0 },
+        { name: "Jus d’Ananas", price: 12.0 },
+      ],
+    },
+    alcoholic: {
+      title: "Boissons Alcoolisées",
+      items: [
+        { name: "Bière", price: 15.0 },
+        { name: "Caipirinha", price: 22.0 },
+        { name: "Vin (verre)", price: 25.0 },
+      ],
     },
   },
 };

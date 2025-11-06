@@ -247,45 +247,45 @@ export const pt = {
         },
       ],
     },
-    cigars: {
-      title: "Charutos",
+  },
+  cigars: {
+    title: "Charutos",
+    items: [
+      { name: "Cohiba Robusto", price: prices.cohibaRobusto },
+      { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
+      { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
+      { name: "Monte Cristo I", price: prices.monteCristoI },
+      { name: "Monte Cristo II", price: prices.monteCristoII },
+      { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
+      { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
+      { name: "Partagas DE", price: prices.partagasDe },
+      { name: "Charuto Danilo Gentil", price: prices.charutoDaniloGentil },
+      { name: "Cigarros", price: prices.cigarros },
+    ],
+  },
+  drink: {
+    title: "Drinks",
+    softDrinks: {
+      title: "Soft Drinks",
       items: [
-        { name: "Cohiba Robusto", price: prices.cohibaRobusto },
-        { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
-        { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
-        { name: "Monte Cristo I", price: prices.monteCristoI },
-        { name: "Monte Cristo II", price: prices.monteCristoII },
-        { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
-        { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
-        { name: "Partagas DE", price: prices.partagasDe },
-        { name: "Charuto Danilo Gentil", price: prices.charutoDaniloGentil },
-        { name: "Cigarros", price: prices.cigarros },
+        { name: "Soda", price: 8.0 },
+        { name: "Água", price: 6.0 },
       ],
     },
-    drink: {
-      title: "Drinks",
-      softDrinks: {
-        title: "Soft Drinks",
-        items: [
-          { name: "Soda", price: 8.0 },
-          { name: "Água", price: 6.0 },
-        ],
-      },
-      juices: {
-        title: "Sucos Naturais",
-        items: [
-          { name: "Suco de Laranja", price: 12.0 },
-          { name: "Suco de Abacaxi", price: 12.0 },
-        ],
-      },
-      alcoholic: {
-        title: "Bebidas Alcoólicas",
-        items: [
-          { name: "Cerveja", price: 15.0 },
-          { name: "Caipirinha", price: 22.0 },
-          { name: "Vinho (taça)", price: 25.0 },
-        ],
-      },
+    juices: {
+      title: "Sucos Naturais",
+      items: [
+        { name: "Suco de Laranja", price: 12.0 },
+        { name: "Suco de Abacaxi", price: 12.0 },
+      ],
+    },
+    alcoholic: {
+      title: "Bebidas Alcoólicas",
+      items: [
+        { name: "Cerveja", price: 15.0 },
+        { name: "Caipirinha", price: 22.0 },
+        { name: "Vinho (taça)", price: 25.0 },
+      ],
     },
   },
 };

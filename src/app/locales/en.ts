@@ -236,45 +236,45 @@ export const en = {
         },
       ],
     },
-    cigars: {
-      title: "Cigars",
+  },
+  cigars: {
+    title: "Cigars",
+    items: [
+      { name: "Cohiba Robusto", price: prices.cohibaRobusto },
+      { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
+      { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
+      { name: "Monte Cristo I", price: prices.monteCristoI },
+      { name: "Monte Cristo II", price: prices.monteCristoII },
+      { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
+      { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
+      { name: "Partagas DE", price: prices.partagasDe },
+      { name: "Danilo Gentil Cigar", price: prices.charutoDaniloGentil },
+      { name: "Cigarettes", price: prices.cigarros },
+    ],
+  },
+  drink: {
+    title: "Drinks",
+    softDrinks: {
+      title: "Soft Drinks",
       items: [
-        { name: "Cohiba Robusto", price: prices.cohibaRobusto },
-        { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
-        { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
-        { name: "Monte Cristo I", price: prices.monteCristoI },
-        { name: "Monte Cristo II", price: prices.monteCristoII },
-        { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
-        { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
-        { name: "Partagas DE", price: prices.partagasDe },
-        { name: "Danilo Gentil Cigar", price: prices.charutoDaniloGentil },
-        { name: "Cigarettes", price: prices.cigarros },
+        { name: "Soda", price: 8.0 },
+        { name: "Water", price: 6.0 },
       ],
     },
-    drink: {
-      title: "Drinks",
-      softDrinks: {
-        title: "Soft Drinks",
-        items: [
-          { name: "Soda", price: 8.0 },
-          { name: "Water", price: 6.0 },
-        ],
-      },
-      juices: {
-        title: "Natural Juices",
-        items: [
-          { name: "Orange Juice", price: 12.0 },
-          { name: "Pineapple Juice", price: 12.0 },
-        ],
-      },
-      alcoholic: {
-        title: "Alcoholic Beverages",
-        items: [
-          { name: "Beer", price: 15.0 },
-          { name: "Caipirinha", price: 22.0 },
-          { name: "Wine (glass)", price: 25.0 },
-        ],
-      },
+    juices: {
+      title: "Natural Juices",
+      items: [
+        { name: "Orange Juice", price: 12.0 },
+        { name: "Pineapple Juice", price: 12.0 },
+      ],
+    },
+    alcoholic: {
+      title: "Alcoholic Beverages",
+      items: [
+        { name: "Beer", price: 15.0 },
+        { name: "Caipirinha", price: 22.0 },
+        { name: "Wine (glass)", price: 25.0 },
+      ],
     },
   },
 };

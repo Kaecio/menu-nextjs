@@ -256,45 +256,45 @@ export const es = {
         },
       ],
     },
-    cigars: {
-      title: "Puros",
+  },
+  cigars: {
+    title: "Puros",
+    items: [
+      { name: "Cohiba Robusto", price: prices.cohibaRobusto },
+      { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
+      { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
+      { name: "Montecristo I", price: prices.monteCristoI },
+      { name: "Montecristo II", price: prices.monteCristoII },
+      { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
+      { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
+      { name: "Partagas DE", price: prices.partagasDe },
+      { name: "Puro Danilo Gentil", price: prices.charutoDaniloGentil },
+      { name: "Cigarrillos", price: prices.cigarros },
+    ],
+  },
+  drink: {
+    title: "Bebidas",
+    softDrinks: {
+      title: "Refrescos",
       items: [
-        { name: "Cohiba Robusto", price: prices.cohibaRobusto },
-        { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
-        { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
-        { name: "Montecristo I", price: prices.monteCristoI },
-        { name: "Montecristo II", price: prices.monteCristoII },
-        { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
-        { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
-        { name: "Partagas DE", price: prices.partagasDe },
-        { name: "Puro Danilo Gentil", price: prices.charutoDaniloGentil },
-        { name: "Cigarrillos", price: prices.cigarros },
+        { name: "Refresco", price: 8.0 },
+        { name: "Agua", price: 6.0 },
       ],
     },
-    drink: {
-      title: "Bebidas",
-      softDrinks: {
-        title: "Refrescos",
-        items: [
-          { name: "Refresco", price: 8.0 },
-          { name: "Agua", price: 6.0 },
-        ],
-      },
-      juices: {
-        title: "Jugos Naturales",
-        items: [
-          { name: "Jugo de Naranja", price: 12.0 },
-          { name: "Jugo de Piña", price: 12.0 },
-        ],
-      },
-      alcoholic: {
-        title: "Bebidas Alcohólicas",
-        items: [
-          { name: "Cerveza", price: 15.0 },
-          { name: "Caipiriña", price: 22.0 },
-          { name: "Vino (copa)", price: 25.0 },
-        ],
-      },
+    juices: {
+      title: "Jugos Naturales",
+      items: [
+        { name: "Jugo de Naranja", price: 12.0 },
+        { name: "Jugo de Piña", price: 12.0 },
+      ],
+    },
+    alcoholic: {
+      title: "Bebidas Alcohólicas",
+      items: [
+        { name: "Cerveza", price: 15.0 },
+        { name: "Caipiriña", price: 22.0 },
+        { name: "Vino (copa)", price: 25.0 },
+      ],
     },
   },
 };
