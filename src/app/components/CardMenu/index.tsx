@@ -32,7 +32,7 @@ export default function MenuCard({
         overflow: "hidden",
         transition: "transform 0.2s ease, box-shadow 0.2s ease",
         "&:hover": {
-          boxShadow: "0 6px 18px rgba(187, 187, 187, 0.4)",
+          boxShadow: "0 6px 18px rgba(255, 255, 255, 0.4)",
           cursor: "pointer",
         },
       }}

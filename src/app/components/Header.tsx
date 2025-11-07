@@ -87,7 +87,7 @@ export default function Header() {
               alignItems: "center",
               height: "100%",
               width: "100%",
-              paddingLeft: 2,
+              paddingLeft: 6,
             }}
           >
             <Link
@@ -99,7 +99,10 @@ export default function Header() {
                 alt="Back"
                 width={34}
                 height={34}
-                style={{ filter: "brightness(0) invert(1)" }}
+                style={{
+                  filter: "invert(100%) brightness(200%)",
+                  WebkitFilter: "invert(100%) brightness(200%)",
+                }}
               />
             </Link>
           </Box>

@@ -28,7 +28,6 @@ export default function MenuDetails({
   const { language } = useLanguage();
   const { category } = use(params);
   const [open, setOpen] = useState(false);
-  console.log("Category param:", category);
 
   let section: MenuSection;
 

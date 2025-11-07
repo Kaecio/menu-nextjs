@@ -368,42 +368,45 @@ export const jp = {
   },
   cigars: {
     title: "葉巻 (Charutos)",
-    items: [
-      {
-        name: "コイーバ ロブスト (Cohiba Robusto)",
-        price: prices.cohibaRobusto,
-      },
-      {
-        name: "コイーバ シグロ I (Cohiba Siglo I)",
-        price: prices.cohibaSigloI,
-      },
-      {
-        name: "コイーバ シグロ II (Cohiba Siglo II)",
-        price: prices.cohibaSigloII,
-      },
-      {
-        name: "モンテクリスト I (Monte Cristo I)",
-        price: prices.monteCristoI,
-      },
-      {
-        name: "モンテクリスト II (Monte Cristo II)",
-        price: prices.monteCristoII,
-      },
-      {
-        name: "ロメオとジュリエット I ワイド (Romeo y Julieta I Wide)",
-        price: prices.romeoYJulietaIWide,
-      },
-      {
-        name: "ロメオとジュリエット II ES (Romeo y Julieta II ES)",
-        price: prices.romeoYJulietaIIEs,
-      },
-      { name: "パルタガス DE (Partagas DE)", price: prices.partagasDe },
-      {
-        name: "ダニロ・ジェンティリ葉巻 (Charuto Danilo Gentil)",
-        price: prices.charutoDaniloGentil,
-      },
-      { name: "シガレット (Cigarros)", price: prices.cigarros },
-    ],
+    cigars: {
+      title: "葉巻 (Charutos)",
+      items: [
+        {
+          name: "コイーバ ロブスト (Cohiba Robusto)",
+          price: prices.cohibaRobusto,
+        },
+        {
+          name: "コイーバ シグロ I (Cohiba Siglo I)",
+          price: prices.cohibaSigloI,
+        },
+        {
+          name: "コイーバ シグロ II (Cohiba Siglo II)",
+          price: prices.cohibaSigloII,
+        },
+        {
+          name: "モンテクリスト I (Monte Cristo I)",
+          price: prices.monteCristoI,
+        },
+        {
+          name: "モンテクリスト II (Monte Cristo II)",
+          price: prices.monteCristoII,
+        },
+        {
+          name: "ロメオとジュリエット I ワイド (Romeo y Julieta I Wide)",
+          price: prices.romeoYJulietaIWide,
+        },
+        {
+          name: "ロメオとジュリエット II ES (Romeo y Julieta II ES)",
+          price: prices.romeoYJulietaIIEs,
+        },
+        { name: "パルタガス DE (Partagas DE)", price: prices.partagasDe },
+        {
+          name: "ダニロ・ジェンティリ葉巻 (Charuto Danilo Gentil)",
+          price: prices.charutoDaniloGentil,
+        },
+        { name: "シガレット (Cigarros)", price: prices.cigarros },
+      ],
+    },
   },
   drink: {
     title: "ドリンク (Drinks)",

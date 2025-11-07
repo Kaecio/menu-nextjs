@@ -239,18 +239,21 @@ export const en = {
   },
   cigars: {
     title: "Cigars",
-    items: [
-      { name: "Cohiba Robusto", price: prices.cohibaRobusto },
-      { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
-      { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
-      { name: "Monte Cristo I", price: prices.monteCristoI },
-      { name: "Monte Cristo II", price: prices.monteCristoII },
-      { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
-      { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
-      { name: "Partagas DE", price: prices.partagasDe },
-      { name: "Danilo Gentil Cigar", price: prices.charutoDaniloGentil },
-      { name: "Cigarettes", price: prices.cigarros },
-    ],
+    cigars: {
+      title: "Cigars",
+      items: [
+        { name: "Cohiba Robusto", price: prices.cohibaRobusto },
+        { name: "Cohiba Siglo I", price: prices.cohibaSigloI },
+        { name: "Cohiba Siglo II", price: prices.cohibaSigloII },
+        { name: "Monte Cristo I", price: prices.monteCristoI },
+        { name: "Monte Cristo II", price: prices.monteCristoII },
+        { name: "Romeo y Julieta I Wide", price: prices.romeoYJulietaIWide },
+        { name: "Romeo y Julieta II ES", price: prices.romeoYJulietaIIEs },
+        { name: "Partagas DE", price: prices.partagasDe },
+        { name: "Danilo Gentil Cigar", price: prices.charutoDaniloGentil },
+        { name: "Cigarettes", price: prices.cigarros },
+      ],
+    },
   },
   drink: {
     title: "Drinks",

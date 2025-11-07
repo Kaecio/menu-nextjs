@@ -34,11 +34,11 @@ export default function MenuList() {
       name: language.japonese.title,
       image: "/img/japonese.jpg",
     },
-    // {
-    //   key: "cigars",
-    //   name: language.cigars.title,
-    //   image: "/img/cigars.jpg",
-    // },
+    {
+      key: "cigars",
+      name: language.cigars.title,
+      image: "/img/cigars.jpg",
+    },
   ];
 
   return (

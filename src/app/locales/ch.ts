@@ -308,33 +308,36 @@ export const ch = {
   },
   cigars: {
     title: "雪茄 (Charutos)",
-    items: [
-      { name: "高希霸 罗布图 (Cohiba Robusto)", price: prices.cohibaRobusto },
-      { name: "高希霸 世纪 I (Cohiba Siglo I)", price: prices.cohibaSigloI },
-      {
-        name: "高希霸 世纪 II (Cohiba Siglo II)",
-        price: prices.cohibaSigloII,
-      },
-      { name: "蒙特克里斯托 I (Monte Cristo I)", price: prices.monteCristoI },
-      {
-        name: "蒙特克里斯托 II (Monte Cristo II)",
-        price: prices.monteCristoII,
-      },
-      {
-        name: "罗密欧与朱丽叶 I 宽版 (Romeo y Julieta I Wide)",
-        price: prices.romeoYJulietaIWide,
-      },
-      {
-        name: "罗密欧与朱丽叶 II ES (Romeo y Julieta II ES)",
-        price: prices.romeoYJulietaIIEs,
-      },
-      { name: "帕塔加斯 DE (Partagas DE)", price: prices.partagasDe },
-      {
-        name: "丹尼洛·金提尔雪茄 (Charuto Danilo Gentil)",
-        price: prices.charutoDaniloGentil,
-      },
-      { name: "香烟 (Cigarros)", price: prices.cigarros },
-    ],
+    cigars: {
+      title: "雪茄 (Charutos)",
+      items: [
+        { name: "高希霸 罗布图 (Cohiba Robusto)", price: prices.cohibaRobusto },
+        { name: "高希霸 世纪 I (Cohiba Siglo I)", price: prices.cohibaSigloI },
+        {
+          name: "高希霸 世纪 II (Cohiba Siglo II)",
+          price: prices.cohibaSigloII,
+        },
+        { name: "蒙特克里斯托 I (Monte Cristo I)", price: prices.monteCristoI },
+        {
+          name: "蒙特克里斯托 II (Monte Cristo II)",
+          price: prices.monteCristoII,
+        },
+        {
+          name: "罗密欧与朱丽叶 I 宽版 (Romeo y Julieta I Wide)",
+          price: prices.romeoYJulietaIWide,
+        },
+        {
+          name: "罗密欧与朱丽叶 II ES (Romeo y Julieta II ES)",
+          price: prices.romeoYJulietaIIEs,
+        },
+        { name: "帕塔加斯 DE (Partagas DE)", price: prices.partagasDe },
+        {
+          name: "丹尼洛·金提尔雪茄 (Charuto Danilo Gentil)",
+          price: prices.charutoDaniloGentil,
+        },
+        { name: "香烟 (Cigarros)", price: prices.cigarros },
+      ],
+    },
   },
 
   drink: {
