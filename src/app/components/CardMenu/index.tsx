@@ -47,7 +47,9 @@ export default function MenuCard({
             objectFit: "cover",
           }}
         />
-        <CardContent sx={{ textAlign: "center", backgroundColor: "#fff" }}>
+        <CardContent
+          sx={{ textAlign: "center", backgroundColor: "#fff !important" }}
+        >
           <Typography
             gutterBottom
             variant="h6"
