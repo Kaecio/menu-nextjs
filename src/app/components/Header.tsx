@@ -58,7 +58,7 @@ export default function Header() {
               key={flag.code}
               onClick={() => setLang(flag.code as Lang)}
               sx={{
-                transform: lang === flag.code ? "scale(1.2)" : "scale(1)",
+                transform: lang === flag.code ? "scale(1.3)" : "scale(1)",
               }}
             >
               <Image src={flag.src} alt={flag.alt} width={42} height={42} />
