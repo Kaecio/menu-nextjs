@@ -8,7 +8,7 @@ import { fr } from "../locales/fr";
 import { jp } from "../locales/jp";
 import { pt } from "../locales/pt";
 
-type Lang = "en" | "fr" | "pt" | "es" | "jp" | "ch";
+export type Lang = "en" | "fr" | "pt" | "es" | "jp" | "ch";
 
 const translations = { en, fr, pt, es, jp, ch };
 
