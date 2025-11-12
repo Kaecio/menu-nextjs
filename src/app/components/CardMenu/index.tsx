@@ -60,7 +60,7 @@ export default function MenuCard({
           </Typography>
           {description && (
             <Typography variant="body2" color="text.secondary">
-              {description}
+              {description} dasasda
             </Typography>
           )}
           {children && <div style={{ marginTop: 8 }}>{children}</div>}

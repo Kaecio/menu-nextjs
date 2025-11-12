@@ -89,8 +89,11 @@ export const es = {
         },
       ],
     },
-    sanduiches: {
-      title: "Sándwiches",
+  },
+  hamburgers: {
+    title: "Sándwiches / Hamburguesas",
+    hamburgers: {
+      title: "Hamburguesas",
       items: [
         {
           name: "Sándwich de Filete Mignon",
@@ -102,8 +105,11 @@ export const es = {
           price: prices.bauru,
           items: ["jamón, queso, tomate"],
         },
-        { name: "X-Ensalada", price: prices.xsalada },
       ],
+    },
+    sandwiches: {
+      title: "Sándwiches",
+      items: [{ name: "X-Ensalada", price: prices.xsalada }],
     },
   },
   appetizers: {

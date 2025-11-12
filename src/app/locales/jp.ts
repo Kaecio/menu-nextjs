@@ -119,18 +119,32 @@ export const jp = {
         },
       ],
     },
-    sanduiches: {
-      title: "サンドイッチ (Sanduíches)",
+  },
+  hamburgers: {
+    title: "サンドイッチ / ハンバーガ (Sanduíches)",
+    hamburgers: {
+      title: "ハンバーガー (Burgers)",
       items: [
         {
           name: "フィレミニョンサンド (Sanduíche de Filé Mignon)",
           price: prices.sanduicheFiletMignon,
+          items: [
+            "チーズ、レタス、トマト、マヨネーズ (queijo, alface, tomate e maionese)",
+          ],
         },
-        { name: "バウルー (Bauru)", price: prices.bauru },
-        { name: "チーズサラダバーガー (X-Salada)", price: prices.xsalada },
+        {
+          name: "バウルー (Bauru)",
+          price: prices.bauru,
+          items: ["ハム、チーズ、トマト (presunto, queijo, tomate)"],
+        },
       ],
     },
+    sandwiches: {
+      title: "サンドイッチ (Sanduíches)",
+      items: [{ name: "エックスサラダ (X-Salada)", price: prices.xsalada }],
+    },
   },
+
   appetizers: {
     title: "おつまみ (Porções)",
     appetizers: {

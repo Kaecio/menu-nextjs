@@ -104,16 +104,29 @@ export const ch = {
         },
       ],
     },
-    sanduiches: {
-      title: "三明治 (Sanduíches)",
+  },
+  hamburgers: {
+    title: "三明治 / 汉堡包 (Sanduíches / Burgers)",
+    hamburgers: {
+      title: "汉堡包 (Burgers)",
       items: [
         {
-          name: "牛排三明治 (Sanduíche de Filé Mignon)",
+          name: "菲力牛排三明治 (Sanduíche de Filé Mignon)",
           price: prices.sanduicheFiletMignon,
+          items: [
+            "奶酪、生菜、西红柿和蛋黄酱 (queijo, alface, tomate e maionese)",
+          ],
         },
-        { name: "包鲁三明治 (Bauru)", price: prices.bauru },
-        { name: "芝士沙拉汉堡 (X-Salada)", price: prices.xsalada },
+        {
+          name: "巴乌鲁三明治 (Bauru)",
+          price: prices.bauru,
+          items: ["火腿、奶酪、西红柿 (presunto, queijo, tomate)"],
+        },
       ],
+    },
+    sandwiches: {
+      title: "三明治 (Sanduíches)",
+      items: [{ name: "X-沙拉 (X-Salada)", price: prices.xsalada }],
     },
   },
 

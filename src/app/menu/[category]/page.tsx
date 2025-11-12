@@ -35,6 +35,9 @@ export default function MenuDetails({
     case "dinner":
       section = language.dinner as MenuSection;
       break;
+    case "hamburgers":
+      section = language.hamburgers as MenuSection;
+      break;
     case "dessert":
       section = language.dessert as MenuSection;
       break;

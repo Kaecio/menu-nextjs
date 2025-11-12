@@ -33,6 +33,12 @@ type LanguageType = {
     risotto: { title: string; items: DinnerItem[] };
     sandwiches: { title: string; items: DinnerItem[] };
   };
+  hamburgers: {
+    title: string;
+    beefBurgers: { title: string; items: DinnerItem[] };
+    chickenBurgers: { title: string; items: DinnerItem[] };
+    veggieBurgers: { title: string; items: DinnerItem[] };
+  };
   appetizers: {
     title: string;
     appetizers: { title: string; items: Appetizers[] };

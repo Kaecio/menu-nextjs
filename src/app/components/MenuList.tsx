@@ -20,6 +20,11 @@ export default function MenuList() {
       image: "/img/dinner.jpg",
     },
     {
+      key: "hamburgers",
+      name: language.hamburgers.title,
+      image: "/img/hamburger.jpg",
+    },
+    {
       key: "appetizers",
       name: language.appetizers.title,
       image: "/img/appetizers.jpg",
