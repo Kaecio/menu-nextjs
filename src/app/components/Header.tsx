@@ -48,7 +48,7 @@ export default function Header() {
         <Toolbar
           sx={{
             justifyContent: "space-around",
-            gap: 0.5,
+            // gap: 0.2,
             width: "100%",
             px: 2,
           }}
@@ -84,8 +84,8 @@ export default function Header() {
               <Image
                 src="/icons/back.png"
                 alt="Back"
-                width={34}
-                height={34}
+                width={30}
+                height={30}
                 style={{
                   filter: "invert(100%) brightness(200%)",
                   WebkitFilter: "invert(100%) brightness(200%)",

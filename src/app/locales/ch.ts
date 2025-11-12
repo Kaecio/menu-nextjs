@@ -106,7 +106,7 @@ export const ch = {
     },
   },
   hamburgers: {
-    title: "三明治 / 汉堡包 (Sanduíches / Burgers)",
+    title: "三明治 / 汉堡包 (Sanduíches)",
     hamburgers: {
       title: "汉堡包 (Burgers)",
       items: [
