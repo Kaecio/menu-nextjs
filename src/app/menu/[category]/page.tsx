@@ -54,9 +54,9 @@ export default function MenuDetails({
       return <Typography color="white">Categoria não encontrada.</Typography>;
   }
 
-  const handleOpenModal = () => {
-    setOpen(true);
-  };
+  // const handleOpenModal = () => {
+  //   setOpen(true);
+  // };
 
   return (
     <Box
