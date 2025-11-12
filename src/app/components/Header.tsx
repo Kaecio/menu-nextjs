@@ -4,10 +4,11 @@ import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Lang } from "../components/LanguageProvider";
 import { useLanguage } from "./LanguageProvider";
 
 interface Flag {
-  code: string;
+  code: Lang;
   alt: string;
   src: string;
 }
@@ -55,7 +56,7 @@ export default function Header() {
           {flags.map((flag) => (
             <IconButton
               key={flag.code}
-              onClick={() => setLang(flag.code as any)}
+              onClick={() => setLang(flag.code as Lang)}
               sx={{
                 transform: lang === flag.code ? "scale(1.2)" : "scale(1)",
               }}

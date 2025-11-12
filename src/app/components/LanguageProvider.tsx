@@ -8,7 +8,7 @@ import { fr } from "../locales/fr";
 import { jp } from "../locales/jp";
 import { pt } from "../locales/pt";
 
-type Lang = "en" | "fr" | "pt" | "es" | "jp" | "ch";
+export type Lang = "en" | "fr" | "pt" | "es" | "jp" | "ch";
 
 const translations = { en, fr, pt, es, jp, ch };
 
@@ -62,14 +62,13 @@ type LanguageContextType = {
 };
 
 const LanguageContext = createContext<LanguageContextType>({
-  // lang: "en",
-  lang: "pt",
+  lang: "en",
   setLang: () => {},
   language: translations.en as unknown as LanguageType,
 });
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>("pt");
+  const [lang, setLang] = useState<Lang>("en");
 
   const value = {
     lang,
